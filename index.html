@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Kirang+Haerang|Open+Sans+Condensed:300|Ranga" rel="stylesheet">
+    <style media="screen">
+    h1{
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: white
+
+      }
+    h2{
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: white;
+        font-size: 30px;
+    }
+    ul {
+      list-style: none;
+      margin:0 auto;
+      display: block;
+      text-align:center;
+    }
+    li {
+      float: left;
+      margin-right: 10px;
+    }
+    button{
+      background: white;
+      border: none;
+      font-family: 'Ranga', cursive;
+      color: CORNFLOWERBLUE;
+      font-size: 24px;
+
+    }
+    body {
+      background-image:url("https://media3.giphy.com/media/4oMoIbIQrvCjm/200.webp");
+    }
+
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the Zodiac Quote Generator!</p>
+    <h2>Choose your zodiac sign </h1>
+    <ul>
+      <li><button type="button" onclick="generateAries()">Aries</button></li>
+      <li><button type="button" onclick="generateTaurus()">Taurus</button></li>
+      <li><button type="button" onclick="generateGemini()">Gemini</button></li>
+      <li><button type="button" onclick="alert('Hello world!')">Cancer</button></li>
+      <li><button type="button" onclick="alert('Hello world!')">Leo</button></li>
+      <li><button type="button" onclick="alert('Hello world!')">Virgo</button></li>
+      <li><button type="button" onclick="alert('Hello world!')">Libra</button></li>
+      <li><button type="button" onclick="alert('Hello world!')">Scorpio</button></li>
+      <li><button type="button" onclick="alert('Hello world!')">Sagittarius</button></li>
+      <li><button type="button" onclick="alert('Hello world!')">Capricorn</button></li>
+      <li><button type="button" onclick="alert('Hello world!')">Aquarius</button></li>
+      <li><button type="button" onclick="alert('Hello world!')">Pisces</button></li>
+    </ul>
+
+  </body>
+  <script>
+    function generateAries() {
+      var quotesARIES = [
+        "Put yourself on a pedestal, Aries. You've always had a lot of confidence, but it comes with a lot of grace and hard work. You just don't back down from a challenge, or let anything stand in your way.",
+        "You can't live a positive life with a negative mind.",
+        "Dreams don't work unless you do — and you know that being a leader means rising above the drama and nonsense of life sometimes."
+      ];
+      var randomNumber = Math.floor(Math.random() * 3);
+      alert(quotesARIES[randomNumber]);
+    }
+    function generateTaurus() {
+      var quotesTAURUS = [
+        "Everything you do is done in love, Taurus. Like an Aries, you're incredibly hardworking, but because you love to live your life surrounded by beautiful things. And you often take your fate in your hands, so your lifestyle can be just like that.",
+        "Keep your head up always, and remember to build a firm foundation in love, no matter where you go.",
+        "No matter what you're going through, there's a light at the end of the tunnel. And it may seem hard to get to it, but you can do it. And just keep working towards it and you'll find the positive side of things."
+      ];
+      var randomNumber = Math.floor(Math.random() * 3);
+      alert(quotesTAURUS[randomNumber]);
+    }
+    function generateGemini() {
+      var quotesGEMINI = [
+        "You're oh-so curious, Gemini. In life, you have a lot of expectations and things that you're looking for. You hold the people in your life to high standards, and can easily stress yourself out over all your hopes and dreams.",
+        "Almost like a Sagittarius, you like to take fate in your own two hands, and know that waiting around for the universe will really get you nowhere. Your vibe continuously attracts your tribe, and you're sending out all the good energies so that you get them in return. Sitting around and waiting for life to come to you just isn't your style.",
+        "You're braver than you believe, and stronger than you seem, and smarter than you think."
+      ];
+      var randomNumber = Math.floor(Math.random() * 3);
+      alert(quotesGEMINI[randomNumber]);
+    }
+  </script>
+</html>
