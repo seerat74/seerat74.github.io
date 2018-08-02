@@ -52,8 +52,8 @@
       <li><button type="button" onclick="generateLeo()">Leo</button></li>
       <li><button type="button" onclick="generateVirgo()">Virgo</button></li>
       <li><button type="button" onclick="generateLibra()">Libra</button></li>
-      <li><button type="button" onclick="alert('Hello world!')">Scorpio</button></li>
-      <li><button type="button" onclick="alert('Hello world!')">Sagittarius</button></li>
+      <li><button type="button" onclick="generateScorpio()">Scorpio</button></li>
+      <li><button type="button" onclick="generateSagittarius()">Sagittarius</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Capricorn</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Aquarius</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Pisces</button></li>
@@ -124,5 +124,23 @@
       var randomNumber = Math.floor(Math.random() * 3);
       alert(quotesLIBRA[randomNumber]);
     }
+    function generateScorpio() {
+      var quotesSCORPIO = [
+        "One day, you'll make your passion your paycheck, Scorpio. You live your life for the love stories — it just gives you so much purpose. So, surrounding yourself with so many things worth falling in love with is sort of your idea of success. Relationships can be tricky, and following your dreams isn't any more simple sometimes. But, constantly having something to chase will keep your determined mind on the move.",
+        "Maybe you'll find yourself living the famous lifestyle, or just finally write that book you've been thinking about for awhile now. It's never too late to start — and you're never to old to dive head first into unreal passion. Follow your heart always, Scorpio.",
+        "Things can often get dark in your scene, Scorpio. Your intensity and passion sometimes makes for a seriously moody experience. And sometimes the only way to snap out of it is a big glass of wine and a heavy swipe of lipstick. And if anyone can speak to this manner of motivation, it’s definitely Liz Taylor!"
+      ];
+      var randomNumber = Math.floor(Math.random() * 3);
+      alert(quotesSCORPIO[randomNumber]);
+    }
+      function generateSagittarius() {
+        var quotesSAGITTARIUS = [
+          "You and Walt Whitman seem to have a lot in common, huh, Sag? You too “tramp a perpetual journey,” always seeking out exciting adventures and new information. You’ve got an incurable case of wanderlust, and your goal-oriented mind makes sure you continue on your path with an optimistic energy we admire.",
+          "You're a Wilde child, Sagittarius. When it's not your feet wandering, it's your mind, and sometimes you're as mysterious as the moon. As long as you're seeing this world and experiencing everything it has to offer, you'll be happy. Out of all the signs, you're one of the most idealistic and approach adventure with such a positive attitude — and we know traveling can be a little tricky at times.",
+          "The world is filled with a lot of beauty, and you have the freedom to roam it and fall head over heels for the people and places in it. With this sort of spirit, the stars knew you needed a certain quote for social media, and this one just made sense."
+        ];
+        var randomNumber = Math.floor(Math.random() * 3);
+        alert(quotesSAGITTARIUS[randomNumber]);
+      }
   </script>
 </html>
