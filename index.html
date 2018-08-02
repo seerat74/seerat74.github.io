@@ -50,8 +50,8 @@
       <li><button type="button" onclick="generateGemini()">Gemini</button></li>
       <li><button type="button" onclick="generateCancer()">Cancer</button></li>
       <li><button type="button" onclick="generateLeo()">Leo</button></li>
-      <li><button type="button" onclick="alert('Hello world!')">Virgo</button></li>
-      <li><button type="button" onclick="alert('Hello world!')">Libra</button></li>
+      <li><button type="button" onclick="generateVirgo()">Virgo</button></li>
+      <li><button type="button" onclick="generateLibra">Libra</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Scorpio</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Sagittarius</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Capricorn</button></li>
@@ -105,6 +105,24 @@
       ];
       var randomNumber = Math.floor(Math.random() * 3);
       alert(quotesLEO[randomNumber]);
+    }
+    function generateVirgo() {
+      var quotesVIRGO = [
+        "You notice all the little things in life, Virgo. So, naturally a quote that reminds everyone to be a bit more present is the perfect fit. In any given social situation, you're the analytical one, noticing the details that nobody will remember the next morning.",
+        "Being present can be incredibly difficult in a world full of screens, so you and your followers need this inspirational quote in your Instagram bio more than ever. Social media has a way of distracting us from reality — and if you find yourself living outside the moment, then you'll have these words from the stars to ground you again.",
+        "We know how tough it can be for you to keep going in the face of so much adversity, Virgo, but we commend your vigilant desire to fight for what you believe in. Hillary Clinton knows a thing or two about adversity, and she’s just the person to keep in mind when you’re feeling doubtful of your place in the world."
+      ];
+      var randomNumber = Math.floor(Math.random() * 3);
+      alert(quotesVIRGO[randomNumber]);
+    }
+    function generateLibra() {
+      var quotesLIBRA = [
+        "All is right in your world when there’s a happy equilibrium for the people you care about, Libra, and your generous heart plays a huge part in that. As the diplomat of the zodiac, you’re constantly seeking balance — not just for yourself, but for those around you. DVF’s quote is a powerful reminder to keep doing you.",
+        "Life's all about balance, Libra. On one hand you want to take fate in your own hands, and on the other you want to see what the universe has in mind. No matter what situation you find yourself in, you're always weighing the possibilities like this. So, according to the stars, this quote will radiate that need for equality.",
+        "You'll face many conflicts in your life, and unfortunately it's important that you face them instead of run away from them. But, you'll also always be the one to find compromise and put a little peace in the air."
+      ];
+      var randomNumber = Math.floor(Math.random() * 3);
+      alert(quotesLIBRA[randomNumber]);
     }
   </script>
 </html>
