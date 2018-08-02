@@ -56,7 +56,7 @@
       <li><button type="button" onclick="generateSagittarius()">Sagittarius</button></li>
       <li><button type="button" onclick="generateCapricorn()">Capricorn</button></li>
       <li><button type="button" onclick="generateAquarius()">Aquarius</button></li>
-      <li><button type="button" onclick="alert('Hello world!')">Pisces</button></li>
+      <li><button type="button" onclick="generatePisces()">Pisces</button></li>
     </ul>
     <img src="https://media0.giphy.com/media/Y5GVgQZCluUWQ/giphy.webp" alt="">
   </body>
@@ -160,5 +160,14 @@
         var randomNumber = Math.floor(Math.random() * 3);
         alert(quotesAQUARIUS[randomNumber]);
       }
+        function generatePisces() {
+          var quotesPISCES = [
+            "There’s no doubt you’re super smart, Pisces, and your strong mind comes from your active imagination. You’ve got your head in the clouds in the best way possible — your dreams make you the most compassionate sign of the zodiac, and this energetic empathy is extra special in a world full of tough situations.",
+            "You often find yourself dwelling in your thoughts, Pisces. Whether it's getting caught up in your daydreams, or letting your mind wander while you lay in bed in the morning — you feel most comfortable when you're doing some soul-searching. You understand why people act and react the way they do in certain situations, and actively self-reflect on why you responded just the same.",
+            "Our minds are pretty powerful, and letting our feels get the best of us isn't always beautiful. But, your intuition and ability to see the importance of your inner self is inspiring. Put a quote on your Instagram that is so perfect for your zodiac sign."
+          ];
+          var randomNumber = Math.floor(Math.random() * 3);
+          alert(quotesPISCES[randomNumber]);
+        }
   </script>
 </html>
