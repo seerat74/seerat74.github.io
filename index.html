@@ -48,7 +48,7 @@
       <li><button type="button" onclick="generateAries()">Aries</button></li>
       <li><button type="button" onclick="generateTaurus()">Taurus</button></li>
       <li><button type="button" onclick="generateGemini()">Gemini</button></li>
-      <li><button type="button" onclick="alert('Hello world!')">Cancer</button></li>
+      <li><button type="button" onclick="generateCancer()">Cancer</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Leo</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Virgo</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Libra</button></li>
@@ -58,7 +58,7 @@
       <li><button type="button" onclick="alert('Hello world!')">Aquarius</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Pisces</button></li>
     </ul>
-<img src="https://media0.giphy.com/media/Y5GVgQZCluUWQ/giphy.webp" alt="">
+    <img src="https://media0.giphy.com/media/Y5GVgQZCluUWQ/giphy.webp" alt="">
   </body>
   <script>
     function generateAries() {
@@ -87,6 +87,15 @@
       ];
       var randomNumber = Math.floor(Math.random() * 3);
       alert(quotesGEMINI[randomNumber]);
+    }
+    function generateCancer() {
+      var quotesCANCER = [
+        "You're hard to read sometimes, Cancer. Some people may have a bit trouble getting to know you because it's very rare that you show your true colors and let people go beyond the surface. Your inner self is incredibly sentimental and intuitive, but the only people in your life you share those deep thoughts with may be the ones who have stuck around for awhile.",
+        "In the end, only three things matter: how much you loved, how gently you lived, and how gracefully you let go of things not meant for you.",
+        "You’re ruled by the moon, so there’s a definite back-and-forth to your emotions, Cancer. You often over-think things and can let your nurturing, sensitive nature get in the way of making necessary changes in your life. "
+      ];
+      var randomNumber = Math.floor(Math.random() * 3);
+      alert(quotesCANCER[randomNumber]);
     }
   </script>
 </html>
