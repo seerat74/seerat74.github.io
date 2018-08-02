@@ -49,7 +49,7 @@
       <li><button type="button" onclick="generateTaurus()">Taurus</button></li>
       <li><button type="button" onclick="generateGemini()">Gemini</button></li>
       <li><button type="button" onclick="generateCancer()">Cancer</button></li>
-      <li><button type="button" onclick="alert('Hello world!')">Leo</button></li>
+      <li><button type="button" onclick="generateLeo">Leo</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Virgo</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Libra</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Scorpio</button></li>
@@ -96,6 +96,15 @@
       ];
       var randomNumber = Math.floor(Math.random() * 3);
       alert(quotesCANCER[randomNumber]);
+    }
+    function generateLeo() {
+      var quotesLEO = [
+        "Anything that's not positive, I don't have the energy to focus on it. Anything that's not going in the right direction, I don't have the time or the energy.",
+        " You shine brightest in the spotlight, and have no problem taking up your rightful space in this world. No one can ignore you, and honestly, who would want to? You’re good at everything you try, and it’s a pleasure to watch you grow.",
+        "You're always glowing, Leo. Something about being born in the summertime means that you have the natural ability to shine bright like the sun. You're quite possibly the loudest in any room — or at least the most radiant — and a firm believer that a good laugh can cure just about anything and spark any social situation."
+      ];
+      var randomNumber = Math.floor(Math.random() * 3);
+      alert(quotesLEO[randomNumber]);
     }
   </script>
 </html>
