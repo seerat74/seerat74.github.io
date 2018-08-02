@@ -54,7 +54,7 @@
       <li><button type="button" onclick="generateLibra()">Libra</button></li>
       <li><button type="button" onclick="generateScorpio()">Scorpio</button></li>
       <li><button type="button" onclick="generateSagittarius()">Sagittarius</button></li>
-      <li><button type="button" onclick="alert('Hello world!')">Capricorn</button></li>
+      <li><button type="button" onclick="generateCAPRICORN()">Capricorn</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Aquarius</button></li>
       <li><button type="button" onclick="alert('Hello world!')">Pisces</button></li>
     </ul>
@@ -141,6 +141,24 @@
         ];
         var randomNumber = Math.floor(Math.random() * 3);
         alert(quotesSAGITTARIUS[randomNumber]);
+      }
+      function generateCapricorn() {
+        var quotesCAPRICORN = [
+          "‘Ye may not be a Capricorn himself, but his intense drive to succeed definitely speaks to your most fundamental cosmic cravings, Cap. You’re driven, stable, and committed, no matter how long it takes or how many rungs you have to climb. Slow and steady wins the race, right?",
+          "It's quality over quantity with you, Capricorn. You see right through people sometimes, and know that what's on the surface isn't really what counts. You like the idea of being independent because it means you don't have to impress anyone but yourself.",
+          "Everyone's dreams are different, and you'd rather work on your own than settle for another person's soul food."
+        ];
+        var randomNumber = Math.floor(Math.random() * 3);
+        alert(quotesCAPRICORN[randomNumber]);
+      }
+      function generateAquarius() {
+        var quotesAQUARIUS = [
+          "You're exquisite, Aquarius. You care so deeply about certain causes in your life, and are never afraid to go against the crowd for what you believe in. Like a Capricorn, you see quality over quantity, but you are more willing to put in the work to find the odd beauty in everything.",
+          "Sometimes digging a little deeper is all you need to realize that something isn't as dull as it seems on the surface. Like a runway dress, or one of those hairless cats — you can't judge a book by its cover, and must strive to see the creativity. ",
+          "You take on every aspect of life with a pure rebel’s heart, Aquarius, which means you’re often riding solo on your journeys. But you don’t mind (and neither does Tom Ford!). In fact, your fierce individualism makes you one of the most inspired thinkers of the zodiac, on a constant quest for ultimate truth in all you do."
+        ];
+        var randomNumber = Math.floor(Math.random() * 3);
+        alert(quotesAQUARIUS[randomNumber]);
       }
   </script>
 </html>
